@@ -13,10 +13,9 @@ export const styles = StyleSheet.create({
   content: {
     width: 100,
     height: 116,
-    backgroundColor: theme.colors.secondary40,
     borderRadius: 8,
-    justifyContent: 'space-between',
-    alignItems: 'center'
+    alignItems: 'center',
+    paddingVertical: 7
   },
   title: {
     fontFamily: theme.fonts.title500,
